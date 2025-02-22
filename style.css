@@ -56,4 +56,132 @@ body{
     height: 850px;
     color: #fff;
     z-index: 1;
+    background: linear-gradient(180deg, #3B4859, #141517)
+}
+
+.bar-ios{
+    margin: 10px 0px 0px -8px;
+}
+
+.tocando{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tocando-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tocando-text p{
+    font-size: 9px;
+    font-family: 'CircularLight';
+    color: rgb(192, 192, 192);
+}
+
+.tocando-text h2{
+    font-size: 15px;
+    font-family: 'CircularSpotifyText';
+}
+
+.thumb{
+    margin-top: 65px;
+    margin-bottom: 65px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb img{
+    border-radius: 10px;
+}
+
+.title{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.title-one h1{
+    font-size: 25px;
+    font-family: 'CircularSpotifyText';
+}
+
+.title-one p{
+    font-size: 13px;
+    font-family: 'CircularLight';
+    color: rgb(192, 192, 192);
+}
+
+.midia{
+    padding-top: 22px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.bar{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(94, 94, 94);
+    border-radius: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.point{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 50px;;
+}
+
+.time{
+    margin-top: 10px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'CircularLight';
+    font-size: 10px;
+    color: rgb(192, 192, 192);
+}
+
+.botoes{
+    padding: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.end{
+    padding: 35px 0px 50px 35px;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+.barra-ios{
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50px;
 }
